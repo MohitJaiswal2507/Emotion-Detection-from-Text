@@ -41,6 +41,7 @@ The model processes text through dual pipelines, concatenating the final hidden 
 ```bash
 git clone [https://github.com/MohitJaiswal2507/Emotion-Detection-from-Text](https://github.com/MohitJaiswal2507/Emotion-Detection-from-Text)
 cd Emotion-Detection-from-Text
+```
 
 ### 2️⃣ Create a Virtual Environment
 
@@ -57,38 +58,18 @@ pip install -r requirements.txt
 
 ```
 
----
-
-## 📊 Results
-
-The hybrid model was evaluated against several baselines on the 13-class dataset:
-
-| Model | Validation Acc. | F1-Score (W.) |
-| --- | --- | --- |
-| Logistic Regression | 41.2% | 0.40 |
-| BERT-Only | 65.3% | 0.65 |
-| RoBERTa-Only | 67.1% | 0.67 |
-| **Hybrid (Ours)** | **69.93%** | **0.70** |
-
----
-
 ## 🛠 Tech Stack
 
-* 
-**Frameworks**: PyTorch, Hugging Face Transformers.
+* **Frameworks**: PyTorch, Hugging Face Transformers.
 
 
-* 
-**Models**: BERT (bert-base-uncased) & RoBERTa (roberta-base).
+* **Models**: BERT (bert-base-uncased) & RoBERTa (roberta-base).
 
 
-* 
-**Hardware**: Training performed on **Nvidia RTX 4060 GPU**.
+* **Hardware**: Training performed on **Nvidia RTX 4060 GPU**.
 
 
-* 
-**Data**: Emotions Dataset by boltuix (130k+ samples).
-
+* **Data**: Emotions Dataset by boltuix (130k+ samples).
 
 
 ---
