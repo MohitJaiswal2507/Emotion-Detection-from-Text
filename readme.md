@@ -69,10 +69,11 @@ Open and run the train.ipynb notebook. This script:
 
 * Saves the final model weights to the models/ directory.
 
-### 5️⃣ Once Training is complete :
-    Run:
-    ```bash
-        python app.py```
+### 5️⃣ Once Training is complete, Run :
+   ```bash
+python app.py
+
+```
 
 
 ## 🛠 Tech Stack
