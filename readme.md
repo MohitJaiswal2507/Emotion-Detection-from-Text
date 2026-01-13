@@ -1,4 +1,3 @@
-```markdown
 # 🧠 Hybrid BERT-RoBERTa Ensemble for Emotion Classification
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)  
@@ -10,29 +9,29 @@
 
 ## 🚀 Overview
 
-[cite_start]This project implements a **Hybrid BERT-RoBERTa Ensemble** designed for high-granularity **Text Emotion Classification (TEC)**[cite: 7]. [cite_start]While traditional models are often limited to basic emotions, this architecture captures 13 nuanced human states including **sarcasm, confusion, and shame**[cite: 9, 12].
+This project implements a **Hybrid BERT-RoBERTa Ensemble** designed for high-granularity **Text Emotion Classification (TEC)**. While traditional models are often limited to basic emotions, this architecture captures 13 nuanced human states including **sarcasm, confusion, and shame**.
 
-[cite_start]By concatenating the 768-dimensional CLS feature embeddings from both `bert-base-uncased` and `roberta-base`, the model creates a rich **1536-dimensional feature vector** for superior classification performance[cite: 11, 65].
+By concatenating the 768-dimensional CLS feature embeddings from both `bert-base-uncased` and `roberta-base`, the model creates a rich **1536-dimensional feature vector** for superior classification performance.
 
 ---
 
 ## ✨ Features
 
-- [cite_start]🎭 **Nuanced Detection** → Trained on a 13-label dataset including Sarcasm, Guilt, and Confusion[cite: 12, 60].
-- [cite_start]🤖 **Ensemble Architecture** → Parallel fine-tuning of BERT and RoBERTa models[cite: 10, 64].
-- [cite_start]📊 **Superior Performance** → Achieves a validation accuracy of **69.93%**, outperforming single-model baselines[cite: 13, 89].
-- [cite_start]🧪 **Research-Backed** → Based on methodology developed at **Bennett University**[cite: 4, 27].
+- 🎭 **Nuanced Detection** → Trained on a 13-label dataset including Sarcasm, Guilt, and Confusion.
+- 🤖 **Ensemble Architecture** → Parallel fine-tuning of BERT and RoBERTa models.
+- 📊 **Superior Performance** → Achieves a validation accuracy of **69.93%**, outperforming single-model baselines.
+- 🧪 **Research-Backed** → Based on methodology developed at **Bennett University**.
 
 ---
 
 ## 🏗️ Architecture
 
-[cite_start]The model processes text through dual pipelines, concatenating the final hidden states (CLS tokens) before passing them through a linear classifier[cite: 65, 66].
+The model processes text through dual pipelines, concatenating the final hidden states (CLS tokens) before passing them through a linear classifier.
 
-1. [cite_start]**Preprocessing**: Dual tokenization using BERT and RoBERTa tokenizers[cite: 63].
-2. [cite_start]**Feature Extraction**: Parallel processing through pre-trained Transformer layers[cite: 65].
-3. [cite_start]**Fusion**: Concatenation of embeddings into a 1536-dimensional vector[cite: 11, 76].
-4. [cite_start]**Classification**: Final linear layer for 13-class emotion prediction[cite: 66, 80].
+1. **Preprocessing**: Dual tokenization using BERT and RoBERTa tokenizers.
+2. **Feature Extraction**: Parallel processing through pre-trained Transformer layers.
+3. **Fusion**: Concatenation of embeddings into a 1536-dimensional vector.
+4. **Classification**: Final linear layer for 13-class emotion prediction.
 
 ---
 
@@ -42,8 +41,6 @@
 ```bash
 git clone [https://github.com/MohitJaiswal2507/Emotion-Detection-from-Text](https://github.com/MohitJaiswal2507/Emotion-Detection-from-Text)
 cd Emotion-Detection-from-Text
-
-```
 
 ### 2️⃣ Create a Virtual Environment
 
