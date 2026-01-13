@@ -1,0 +1,7 @@
+__pycache__/
+.old/
+.vscode
+*.png
+*.pth
+*.pkl
+emotions-dataset.parquet
