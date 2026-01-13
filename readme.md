@@ -51,12 +51,29 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ```
 
-### 3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies 
 
 ```bash
 pip install -r requirements.txt
 
 ```
+
+### 4️⃣ Training (train.ipynb)
+Open and run the train.ipynb notebook. This script:
+
+* Loads the Emotions Dataset.
+
+* Performs dual tokenization for BERT and RoBERTa.
+
+* Trains the hybrid model for N(any number of your choice) epochs on any GPU 
+
+* Saves the final model weights to the models/ directory.
+
+### 5️⃣ Once Training is complete :
+    Run:
+    ```bash
+        python app.py```
+
 
 ## 🛠 Tech Stack
 
@@ -92,10 +109,7 @@ pip install -r requirements.txt
 
 ## 👨‍💻 Author
 
-**Mohit Jaiswal** 🎓 B.Tech CSE, **Bennett University** 📧 [mohitjaiswal2507@gmail.com](mailto:mohitjaiswal2507@gmail.com)
-
-🌐 [GitHub Repository](https://github.com/MohitJaiswal2507/Emotion-Detection-from-Text)
-
+**Mohit Jaiswal** 📧 [mohitjaiswal2507@gmail.com](mailto:mohitjaiswal2507@gmail.com)
 ---
 
 ## 📜 License
